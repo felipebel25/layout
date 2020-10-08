@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
+html
+{
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header 
+{
+    display: inline-block;
+    height: 5rem;
+    width: 1800px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    align-self: flex-start;
+}
+.header_logo
+{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 10rem;
+    color:red;
+}
+.nav_ul
+{
+    
+    position: fixed;
+  
+    padding: 1rem;
+    top: 0%;
+    left: 50%;
+    outline: none;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    }
+.lista
+{
+    
+    display: inline-block;
+    font-size: 3rem;
+    padding-left: 3rem;
+    outline: none;
+    
+}  
+
+.lista a {
+ 
+    
+
+    display: block;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: white;
+}
+.lista a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+.lista a:hover {
+  border-bottom: 1px solid;     
+  background: #2a6400;
+}
+.section
+{
+    padding: 3rem;
+    width: 64%;
+    min-height: 30rem;
+    position: relative;
+    left: 30%;
+    top: 5.3rem;
+}
+.section_text
+{
+    
+    position: static;
+    left: 1rem;
+    font-size: 1.8rem;
+    float: none;
+}
+.aside
+{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0.4rem solid gold;
+    position: fixed;
+    top: 4.9rem;
+    width: 30%;
+    height: 15%;
+   
+}
+#aside_text
+{
+    color: red;
+    font-size: 2rem;
+}
+.aside_img
+{
+    position:fixed;
+    top: 24rem;
+    border: solid  green;
+    width: 30%;
+    height: 26%;
+    align-content: center;
+    border-radius: 10px;
+}
+#aside_element
+{
+    position: fixed;
+    left: 4%;
+    align-content: center;
+    width: 20%;
+}
+.fotter
+{
+  
+    position: fixed;
+    padding: 1%;
+    top: 95%;
+    color : white;
+    background-color: black;
+    height: 80%;
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    align-self: flex-end;
+}
+#footer
+{
+    position: fixed;
+}
